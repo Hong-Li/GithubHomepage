@@ -1,0 +1,25 @@
+# Setup
+title:        Hongli Liu
+tagline:      Star Formation And Interstellar Medium
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       HONGLI LIU
+  url:        http://yourhomepage.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
